@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a7325de64b11b58c2706b8696e59fcd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a7325de64b11b58c2706b8696e59fcd6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a7325de64b11b58c2706b8696e59fcd6 = L.map(
+                "map_a7325de64b11b58c2706b8696e59fcd6",
+                {
+                    center: [45.53209276274582, 38.89000344823928],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_314deaa8b049155fe5c3ab73d607e42e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_314deaa8b049155fe5c3ab73d607e42e.addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+            var marker_4b2d0a212434ee7f2f252680fc3980b9 = L.marker(
+                [45.055811, 39.003664],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_29f8a67f86b7dc9d2ea9d00ddf3594b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_186fa4ba0370fce1c2525006c75ac72d = $(`<div id="html_186fa4ba0370fce1c2525006c75ac72d" style="width: 100.0%; height: 100.0%;">Системный аналитик — INSTORE — 100000.0</div>`)[0];
+                popup_29f8a67f86b7dc9d2ea9d00ddf3594b4.setContent(html_186fa4ba0370fce1c2525006c75ac72d);
+            
+        
+
+        marker_4b2d0a212434ee7f2f252680fc3980b9.bindPopup(popup_29f8a67f86b7dc9d2ea9d00ddf3594b4)
+        ;
+
+        
+    
+    
+            var marker_7134420bb48051d82585522e51ab3e87 = L.marker(
+                [45.037451, 38.995678],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_aa64abd3773c38601eca7378f27aff91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a625279996f247b48c27b7895838dde3 = $(`<div id="html_a625279996f247b48c27b7895838dde3" style="width: 100.0%; height: 100.0%;">Бизнес/Системный аналитик — Russian Robotics — 100000.0</div>`)[0];
+                popup_aa64abd3773c38601eca7378f27aff91.setContent(html_a625279996f247b48c27b7895838dde3);
+            
+        
+
+        marker_7134420bb48051d82585522e51ab3e87.bindPopup(popup_aa64abd3773c38601eca7378f27aff91)
+        ;
+
+        
+    
+    
+            var marker_1bfe70ef3f33f5d03655964170e214a2 = L.marker(
+                [45.024852, 38.97525],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_7915179ccc3dae62c5f8b77963e1832a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d71177d1c6a297327ed69342659b6b89 = $(`<div id="html_d71177d1c6a297327ed69342659b6b89" style="width: 100.0%; height: 100.0%;">Аналитик данных — ПКО Служба защиты активов — 67500.0</div>`)[0];
+                popup_7915179ccc3dae62c5f8b77963e1832a.setContent(html_d71177d1c6a297327ed69342659b6b89);
+            
+        
+
+        marker_1bfe70ef3f33f5d03655964170e214a2.bindPopup(popup_7915179ccc3dae62c5f8b77963e1832a)
+        ;
+
+        
+    
+    
+            var marker_fe4634c943a11350973cc9aba9822388 = L.marker(
+                [45.033993, 39.019537],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_7d387afe9aa2ef5a5f2f115aa196cd62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150a7504aa83a191f75e38a76332ce54 = $(`<div id="html_150a7504aa83a191f75e38a76332ce54" style="width: 100.0%; height: 100.0%;">Системный аналитик 1С: Управление Холдингом — Красное & Белое, розничная сеть — nan</div>`)[0];
+                popup_7d387afe9aa2ef5a5f2f115aa196cd62.setContent(html_150a7504aa83a191f75e38a76332ce54);
+            
+        
+
+        marker_fe4634c943a11350973cc9aba9822388.bindPopup(popup_7d387afe9aa2ef5a5f2f115aa196cd62)
+        ;
+
+        
+    
+    
+            var marker_2d085b682690ed7ecd8c35ceee9216ec = L.marker(
+                [45.059536, 38.962692],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_4a2248cff4ab1ace9bcc5e21fcd736fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80e007359a2836455a6fcb14a10bb622 = $(`<div id="html_80e007359a2836455a6fcb14a10bb622" style="width: 100.0%; height: 100.0%;">Начинающий Аналитик 1С — Компания Апогей (Техподдержка 1С) — 70000.0</div>`)[0];
+                popup_4a2248cff4ab1ace9bcc5e21fcd736fe.setContent(html_80e007359a2836455a6fcb14a10bb622);
+            
+        
+
+        marker_2d085b682690ed7ecd8c35ceee9216ec.bindPopup(popup_4a2248cff4ab1ace9bcc5e21fcd736fe)
+        ;
+
+        
+    
+    
+            var marker_4004beeb42b2cdae515a4677ecf20731 = L.marker(
+                [45.033993, 39.019537],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_ba4dd1159e9af8b530357bae7d446053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47129d92c2283a00a5d99d08178598fb = $(`<div id="html_47129d92c2283a00a5d99d08178598fb" style="width: 100.0%; height: 100.0%;">Системный аналитик по 1С УНФ — Красное & Белое, розничная сеть — nan</div>`)[0];
+                popup_ba4dd1159e9af8b530357bae7d446053.setContent(html_47129d92c2283a00a5d99d08178598fb);
+            
+        
+
+        marker_4004beeb42b2cdae515a4677ecf20731.bindPopup(popup_ba4dd1159e9af8b530357bae7d446053)
+        ;
+
+        
+    
+    
+            var marker_cb0ca3e0636adc70ebda7aad71c762f0 = L.marker(
+                [45.037388, 38.967093],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_c5266fa5f65e58efa1536bb874e1649f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f38edd3bbf0d14baff5f25227f78a455 = $(`<div id="html_f38edd3bbf0d14baff5f25227f78a455" style="width: 100.0%; height: 100.0%;">Аналитик — Самокат (ООО Умный ритейл) — 76000.0</div>`)[0];
+                popup_c5266fa5f65e58efa1536bb874e1649f.setContent(html_f38edd3bbf0d14baff5f25227f78a455);
+            
+        
+
+        marker_cb0ca3e0636adc70ebda7aad71c762f0.bindPopup(popup_c5266fa5f65e58efa1536bb874e1649f)
+        ;
+
+        
+    
+    
+            var marker_828778cf72cb9b56468f1a319d2d73c4 = L.marker(
+                [45.087574, 39.037935],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_ae23efe4469b65582055f26ea4acc8fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f94e6cd6f2fb1b1c2386893035c03b8d = $(`<div id="html_f94e6cd6f2fb1b1c2386893035c03b8d" style="width: 100.0%; height: 100.0%;">Аналитик отдела продаж — ИНСИТИ — 55000.0</div>`)[0];
+                popup_ae23efe4469b65582055f26ea4acc8fa.setContent(html_f94e6cd6f2fb1b1c2386893035c03b8d);
+            
+        
+
+        marker_828778cf72cb9b56468f1a319d2d73c4.bindPopup(popup_ae23efe4469b65582055f26ea4acc8fa)
+        ;
+
+        
+    
+    
+            var marker_17a1c7f98b0761590c2004d73678461e = L.marker(
+                [45.049539, 38.986614],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_9f14067c1bba65b66009ea4093beb7e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e5334648a1276f5ad92da79f19be85f = $(`<div id="html_4e5334648a1276f5ad92da79f19be85f" style="width: 100.0%; height: 100.0%;">Региональный координатор-аналитик — Объединенные кондитеры — 60000.0</div>`)[0];
+                popup_9f14067c1bba65b66009ea4093beb7e2.setContent(html_4e5334648a1276f5ad92da79f19be85f);
+            
+        
+
+        marker_17a1c7f98b0761590c2004d73678461e.bindPopup(popup_9f14067c1bba65b66009ea4093beb7e2)
+        ;
+
+        
+    
+    
+            var marker_d172f228ec3b3f52a2e64aa6497192a4 = L.marker(
+                [45.044355, 38.981799],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_f10578f835a59224e521ef433f0eaa10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac1b735cd5785400c9a953b9be1dc8d3 = $(`<div id="html_ac1b735cd5785400c9a953b9be1dc8d3" style="width: 100.0%; height: 100.0%;">Маркетинговый аналитик — CMstore — nan</div>`)[0];
+                popup_f10578f835a59224e521ef433f0eaa10.setContent(html_ac1b735cd5785400c9a953b9be1dc8d3);
+            
+        
+
+        marker_d172f228ec3b3f52a2e64aa6497192a4.bindPopup(popup_f10578f835a59224e521ef433f0eaa10)
+        ;
+
+        
+    
+    
+            var marker_b8be0c8a8819430923fddec39250af5d = L.marker(
+                [45.187129, 39.081],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_9c5cce52dfd02090bff6c8ad5b9d9081 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e900a57fd2ff8d4d08bf03b545262710 = $(`<div id="html_e900a57fd2ff8d4d08bf03b545262710" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик (финансы + маркетинг, FMCG) — Гранд-Стар — 80000.0</div>`)[0];
+                popup_9c5cce52dfd02090bff6c8ad5b9d9081.setContent(html_e900a57fd2ff8d4d08bf03b545262710);
+            
+        
+
+        marker_b8be0c8a8819430923fddec39250af5d.bindPopup(popup_9c5cce52dfd02090bff6c8ad5b9d9081)
+        ;
+
+        
+    
+    
+            var marker_bd4c6b0e1d68b095977aecfa9f364ced = L.marker(
+                [45.033993, 39.019537],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_e8179ee599d823d8082e22f6223eb122 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c21308d7985eea1014586400432a8903 = $(`<div id="html_c21308d7985eea1014586400432a8903" style="width: 100.0%; height: 100.0%;">Системный аналитик 1С департамента ИТ — Красное & Белое, розничная сеть — nan</div>`)[0];
+                popup_e8179ee599d823d8082e22f6223eb122.setContent(html_c21308d7985eea1014586400432a8903);
+            
+        
+
+        marker_bd4c6b0e1d68b095977aecfa9f364ced.bindPopup(popup_e8179ee599d823d8082e22f6223eb122)
+        ;
+
+        
+    
+    
+            var marker_c260d4d91490a0efe0b4d6bdd90c9a3e = L.marker(
+                [45.103042, 39.012378],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_d9712bce962cfb4918c8f284b664e8a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dc6b4bec1ac3b3e3a4835f94faf90f5 = $(`<div id="html_4dc6b4bec1ac3b3e3a4835f94faf90f5" style="width: 100.0%; height: 100.0%;">Аналитик (офис) — Отмахова Марина Викторовна — 90000.0</div>`)[0];
+                popup_d9712bce962cfb4918c8f284b664e8a7.setContent(html_4dc6b4bec1ac3b3e3a4835f94faf90f5);
+            
+        
+
+        marker_c260d4d91490a0efe0b4d6bdd90c9a3e.bindPopup(popup_d9712bce962cfb4918c8f284b664e8a7)
+        ;
+
+        
+    
+    
+            var marker_da79aaa4978cf3c70f0d54e1a1f2451b = L.marker(
+                [45.005348, 39.110312],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_eedf4b70d5e8db8de76a6f13adea7391 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c567bffccb308bf95d45d15b30c68da = $(`<div id="html_7c567bffccb308bf95d45d15b30c68da" style="width: 100.0%; height: 100.0%;">Аналитик (офис) — Отмахова Марина Викторовна — 90000.0</div>`)[0];
+                popup_eedf4b70d5e8db8de76a6f13adea7391.setContent(html_7c567bffccb308bf95d45d15b30c68da);
+            
+        
+
+        marker_da79aaa4978cf3c70f0d54e1a1f2451b.bindPopup(popup_eedf4b70d5e8db8de76a6f13adea7391)
+        ;
+
+        
+    
+    
+            var marker_390c68b09d8cc0983bdcfa55cf4e6c6b = L.marker(
+                [45.09542, 39.020732],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_3910e662b86f3d83e52f37239d910a40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a59a159243e4c9bd4ef409156d763591 = $(`<div id="html_a59a159243e4c9bd4ef409156d763591" style="width: 100.0%; height: 100.0%;">Аналитик/Бизнес-аналитик — Группа компаний НВМ — 200000.0</div>`)[0];
+                popup_3910e662b86f3d83e52f37239d910a40.setContent(html_a59a159243e4c9bd4ef409156d763591);
+            
+        
+
+        marker_390c68b09d8cc0983bdcfa55cf4e6c6b.bindPopup(popup_3910e662b86f3d83e52f37239d910a40)
+        ;
+
+        
+    
+    
+            var marker_b3ad72fcdc086e6feee9b53bf445cd24 = L.marker(
+                [45.030394, 38.972699],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_111666109afa0906c86291d19ee73399 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a3745f96c903270ba36ab0370f2214e = $(`<div id="html_2a3745f96c903270ba36ab0370f2214e" style="width: 100.0%; height: 100.0%;">Товарный аналитик — KuchenLand — nan</div>`)[0];
+                popup_111666109afa0906c86291d19ee73399.setContent(html_2a3745f96c903270ba36ab0370f2214e);
+            
+        
+
+        marker_b3ad72fcdc086e6feee9b53bf445cd24.bindPopup(popup_111666109afa0906c86291d19ee73399)
+        ;
+
+        
+    
+    
+            var marker_ce6ed284092baa6d96a3b1f5aaf0c327 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_29e19aed34288ec221bf68047fb9ee0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f817c1956d71111f723af442e89d4ca9 = $(`<div id="html_f817c1956d71111f723af442e89d4ca9" style="width: 100.0%; height: 100.0%;">Главный бизнес-аналитик направления коммерческой аналитики — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_29e19aed34288ec221bf68047fb9ee0f.setContent(html_f817c1956d71111f723af442e89d4ca9);
+            
+        
+
+        marker_ce6ed284092baa6d96a3b1f5aaf0c327.bindPopup(popup_29e19aed34288ec221bf68047fb9ee0f)
+        ;
+
+        
+    
+    
+            var marker_179a69cffcb946bc0069cb341961fb2a = L.marker(
+                [45.033993, 39.019537],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_a6e747ac473fef29af79ddd5f90ea7ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf379eb6d0f85ffd6343edf68fe6876c = $(`<div id="html_cf379eb6d0f85ffd6343edf68fe6876c" style="width: 100.0%; height: 100.0%;">Системный аналитик 1С: Зарплата и управление персоналом (ЗУП) — Красное & Белое, розничная сеть — nan</div>`)[0];
+                popup_a6e747ac473fef29af79ddd5f90ea7ff.setContent(html_cf379eb6d0f85ffd6343edf68fe6876c);
+            
+        
+
+        marker_179a69cffcb946bc0069cb341961fb2a.bindPopup(popup_a6e747ac473fef29af79ddd5f90ea7ff)
+        ;
+
+        
+    
+    
+            var marker_2044d93341f7b038dca7510cf005bcd4 = L.marker(
+                [45.038298, 38.946594],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_f416985bb2b5ce0bea56dfdf53b8b641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02426ffeebd23b0dd860a457abf11e14 = $(`<div id="html_02426ffeebd23b0dd860a457abf11e14" style="width: 100.0%; height: 100.0%;">Аналитик 1С — Первый Бит — 75000.0</div>`)[0];
+                popup_f416985bb2b5ce0bea56dfdf53b8b641.setContent(html_02426ffeebd23b0dd860a457abf11e14);
+            
+        
+
+        marker_2044d93341f7b038dca7510cf005bcd4.bindPopup(popup_f416985bb2b5ce0bea56dfdf53b8b641)
+        ;
+
+        
+    
+    
+            var marker_5f29e4f6bb06ffc44439b6b242dc492d = L.marker(
+                [44.873538, 37.335537],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_92c837f872d7ae00b416368eeecac7ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4033796e1b6359389b1fc84716dc5f7 = $(`<div id="html_c4033796e1b6359389b1fc84716dc5f7" style="width: 100.0%; height: 100.0%;">Финансовый аналитик / Экономист — Агрохолдинг Белая Дача — 137000.0</div>`)[0];
+                popup_92c837f872d7ae00b416368eeecac7ee.setContent(html_c4033796e1b6359389b1fc84716dc5f7);
+            
+        
+
+        marker_5f29e4f6bb06ffc44439b6b242dc492d.bindPopup(popup_92c837f872d7ae00b416368eeecac7ee)
+        ;
+
+        
+    
+    
+            var marker_901e8ed4ef2df208a47750ada4e6fad7 = L.marker(
+                [45.022278, 39.128395],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_19a4f4a6492e6a38dc1959a35ffd6554 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29b052d53814334a5157830f9d94fe3f = $(`<div id="html_29b052d53814334a5157830f9d94fe3f" style="width: 100.0%; height: 100.0%;">Менеджер-аналитик маркетплейса Yandeх.market — Техника и Посуда — 100000.0</div>`)[0];
+                popup_19a4f4a6492e6a38dc1959a35ffd6554.setContent(html_29b052d53814334a5157830f9d94fe3f);
+            
+        
+
+        marker_901e8ed4ef2df208a47750ada4e6fad7.bindPopup(popup_19a4f4a6492e6a38dc1959a35ffd6554)
+        ;
+
+        
+    
+    
+            var marker_4c1f76289648455f4cbf47210e06818d = L.marker(
+                [45.026769, 38.959467],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_0c93d18bafdcf1809d98c37d6166ccc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb77b2feb8e524e35fecba6d4c24ea84 = $(`<div id="html_eb77b2feb8e524e35fecba6d4c24ea84" style="width: 100.0%; height: 100.0%;">Системный аналитик — Т-Банк — nan</div>`)[0];
+                popup_0c93d18bafdcf1809d98c37d6166ccc0.setContent(html_eb77b2feb8e524e35fecba6d4c24ea84);
+            
+        
+
+        marker_4c1f76289648455f4cbf47210e06818d.bindPopup(popup_0c93d18bafdcf1809d98c37d6166ccc0)
+        ;
+
+        
+    
+    
+            var marker_d30db7adf1cd11a26bbeef1414e7b89f = L.marker(
+                [45.0215553251244, 38.9719657413662],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_194416dbff64ef1534da6c366fa9d7be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29b3bfb46844d985757950a2bfbe95e6 = $(`<div id="html_29b3bfb46844d985757950a2bfbe95e6" style="width: 100.0%; height: 100.0%;">Аналитик-методолог проектного финансирования/эскроу — Кубань Кредит, КБ — nan</div>`)[0];
+                popup_194416dbff64ef1534da6c366fa9d7be.setContent(html_29b3bfb46844d985757950a2bfbe95e6);
+            
+        
+
+        marker_d30db7adf1cd11a26bbeef1414e7b89f.bindPopup(popup_194416dbff64ef1534da6c366fa9d7be)
+        ;
+
+        
+    
+    
+            var marker_93fbc4b8b414b084c7524d2adaca13bb = L.marker(
+                [45.005348, 39.110312],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_59fb9f652736e2daef230b7495259cfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0a2f68a79b2fd12d6c8ea3e347307db = $(`<div id="html_c0a2f68a79b2fd12d6c8ea3e347307db" style="width: 100.0%; height: 100.0%;">Аналитик розничных продаж ( офис) — Отмахова Марина Викторовна — 100000.0</div>`)[0];
+                popup_59fb9f652736e2daef230b7495259cfb.setContent(html_c0a2f68a79b2fd12d6c8ea3e347307db);
+            
+        
+
+        marker_93fbc4b8b414b084c7524d2adaca13bb.bindPopup(popup_59fb9f652736e2daef230b7495259cfb)
+        ;
+
+        
+    
+    
+            var marker_01b275222233f122d9b9405f4e0f4290 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_bf9e5bdd03edb0297a202bcb089c9a47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a69e72a8524f3539f76cf0ae0c68464b = $(`<div id="html_a69e72a8524f3539f76cf0ae0c68464b" style="width: 100.0%; height: 100.0%;">Ведущий аналитик по консолидированной отчетности — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_bf9e5bdd03edb0297a202bcb089c9a47.setContent(html_a69e72a8524f3539f76cf0ae0c68464b);
+            
+        
+
+        marker_01b275222233f122d9b9405f4e0f4290.bindPopup(popup_bf9e5bdd03edb0297a202bcb089c9a47)
+        ;
+
+        
+    
+    
+            var marker_355d6251747a22e38c63e0437353e8df = L.marker(
+                [45.067812, 38.983173],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_a06b5571ddfab596aca0b90df6c1bd13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e29ddc8d23d81fa7a2562554b192348 = $(`<div id="html_7e29ddc8d23d81fa7a2562554b192348" style="width: 100.0%; height: 100.0%;">Аналитик 1С/Стажер — Програмтех — 30000.0</div>`)[0];
+                popup_a06b5571ddfab596aca0b90df6c1bd13.setContent(html_7e29ddc8d23d81fa7a2562554b192348);
+            
+        
+
+        marker_355d6251747a22e38c63e0437353e8df.bindPopup(popup_a06b5571ddfab596aca0b90df6c1bd13)
+        ;
+
+        
+    
+    
+            var marker_48c9724ea7bfeb3ea0f8351c56272ee2 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_754146ff9a2d25fb8401522139cd437b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e5a95c91ba3d30ab4bcc028c8b08756 = $(`<div id="html_9e5a95c91ba3d30ab4bcc028c8b08756" style="width: 100.0%; height: 100.0%;">Аналитик (SQL, Excel) — МАГНИТ, Розничная сеть — 89000.0</div>`)[0];
+                popup_754146ff9a2d25fb8401522139cd437b.setContent(html_9e5a95c91ba3d30ab4bcc028c8b08756);
+            
+        
+
+        marker_48c9724ea7bfeb3ea0f8351c56272ee2.bindPopup(popup_754146ff9a2d25fb8401522139cd437b)
+        ;
+
+        
+    
+    
+            var marker_6285f68f8726b1cc34465441b4c8485f = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_55ed557cfe23433ea6001947f4411a57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97b885ef49e65af54c24f182cf6ef169 = $(`<div id="html_97b885ef49e65af54c24f182cf6ef169" style="width: 100.0%; height: 100.0%;">Главный бизнес-аналитик — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_55ed557cfe23433ea6001947f4411a57.setContent(html_97b885ef49e65af54c24f182cf6ef169);
+            
+        
+
+        marker_6285f68f8726b1cc34465441b4c8485f.bindPopup(popup_55ed557cfe23433ea6001947f4411a57)
+        ;
+
+        
+    
+    
+            var marker_86447cb0046eaf3e7b04d9bf4a57e150 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_9908ad57fafa7565a0713d5d9921b79b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9e12783f66e7db13371be89f2d36682 = $(`<div id="html_f9e12783f66e7db13371be89f2d36682" style="width: 100.0%; height: 100.0%;">Главный аналитик (финансовый блок транспортной логистики) — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_9908ad57fafa7565a0713d5d9921b79b.setContent(html_f9e12783f66e7db13371be89f2d36682);
+            
+        
+
+        marker_86447cb0046eaf3e7b04d9bf4a57e150.bindPopup(popup_9908ad57fafa7565a0713d5d9921b79b)
+        ;
+
+        
+    
+    
+            var marker_fae50f087cafd9c678666a7ba0038d19 = L.marker(
+                [45.042757, 38.941168],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_6cdbd06a36e97a5f7393a549b15797a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_496c6eba6a7cdae6a59799108bd0774b = $(`<div id="html_496c6eba6a7cdae6a59799108bd0774b" style="width: 100.0%; height: 100.0%;">Консультант-аналитик 1С MIDDLE/SENIOR (IT компания) — Мистер Чек — 298000.0</div>`)[0];
+                popup_6cdbd06a36e97a5f7393a549b15797a3.setContent(html_496c6eba6a7cdae6a59799108bd0774b);
+            
+        
+
+        marker_fae50f087cafd9c678666a7ba0038d19.bindPopup(popup_6cdbd06a36e97a5f7393a549b15797a3)
+        ;
+
+        
+    
+    
+            var marker_b028aff1ceb3ce3c201e6f98f5fdcfe0 = L.marker(
+                [44.224821, 43.125844],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_2f968e8e3f502ba0bc492180d48312a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bc875302d3844a9a02111831412446b = $(`<div id="html_2bc875302d3844a9a02111831412446b" style="width: 100.0%; height: 100.0%;">Аналитик 1С — ТСС «БАТАРЕЙКА» & «АКБ - ЦЕНТР» — 200000.0</div>`)[0];
+                popup_2f968e8e3f502ba0bc492180d48312a5.setContent(html_2bc875302d3844a9a02111831412446b);
+            
+        
+
+        marker_b028aff1ceb3ce3c201e6f98f5fdcfe0.bindPopup(popup_2f968e8e3f502ba0bc492180d48312a5)
+        ;
+
+        
+    
+    
+            var marker_385acfd178006b3a3873588ebf174aa6 = L.marker(
+                [45.049679, 38.964443],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_9ed48d6c9f78bd37264f48dd636b55be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4815cef1e1593c37bac73174bc8053cb = $(`<div id="html_4815cef1e1593c37bac73174bc8053cb" style="width: 100.0%; height: 100.0%;">Младший бизнес-аналитик — Деметра Трейдинг — nan</div>`)[0];
+                popup_9ed48d6c9f78bd37264f48dd636b55be.setContent(html_4815cef1e1593c37bac73174bc8053cb);
+            
+        
+
+        marker_385acfd178006b3a3873588ebf174aa6.bindPopup(popup_9ed48d6c9f78bd37264f48dd636b55be)
+        ;
+
+        
+    
+    
+            var marker_f36a6106f2d3293667f905a159fcf91e = L.marker(
+                [45.048284, 38.983137],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_3aeac9107c580fc235efbd13369ffc64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0d2e7bd2c20ac7e2a19cd77a55b2893 = $(`<div id="html_c0d2e7bd2c20ac7e2a19cd77a55b2893" style="width: 100.0%; height: 100.0%;">Аналитик 1С — Портал-Юг — nan</div>`)[0];
+                popup_3aeac9107c580fc235efbd13369ffc64.setContent(html_c0d2e7bd2c20ac7e2a19cd77a55b2893);
+            
+        
+
+        marker_f36a6106f2d3293667f905a159fcf91e.bindPopup(popup_3aeac9107c580fc235efbd13369ffc64)
+        ;
+
+        
+    
+    
+            var marker_ac1981c9d3aeffab7102452f923b48b1 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_d07503cd50b550e59504c1b98d5f54a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f75e1503f9cf8cfea76c73726888c023 = $(`<div id="html_f75e1503f9cf8cfea76c73726888c023" style="width: 100.0%; height: 100.0%;">Главный аналитик (Отдел финансового анализа транспортной логистики) — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_d07503cd50b550e59504c1b98d5f54a7.setContent(html_f75e1503f9cf8cfea76c73726888c023);
+            
+        
+
+        marker_ac1981c9d3aeffab7102452f923b48b1.bindPopup(popup_d07503cd50b550e59504c1b98d5f54a7)
+        ;
+
+        
+    
+    
+            var marker_627e25844e8359b08062c18e0b7b61b6 = L.marker(
+                [45.032133, 39.13542],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_855ce2c80e2e8fa0885c7a5d31cda08f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7746782c0ab07c383ed6c8651dab56e4 = $(`<div id="html_7746782c0ab07c383ed6c8651dab56e4" style="width: 100.0%; height: 100.0%;">Главный экономист/Аналитик (Аэропорт Пашковский) — Гастротерминал — 120000.0</div>`)[0];
+                popup_855ce2c80e2e8fa0885c7a5d31cda08f.setContent(html_7746782c0ab07c383ed6c8651dab56e4);
+            
+        
+
+        marker_627e25844e8359b08062c18e0b7b61b6.bindPopup(popup_855ce2c80e2e8fa0885c7a5d31cda08f)
+        ;
+
+        
+    
+    
+            var marker_9ef5ca632282c61ed5ca21ac0d192377 = L.marker(
+                [45.088624, 39.001436],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_727ddfdd6720171cc20eeae0da427161 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8955211e50f7ee547fc76f6238995c0b = $(`<div id="html_8955211e50f7ee547fc76f6238995c0b" style="width: 100.0%; height: 100.0%;">Аналитик по ценообразованию — ФК ПУЛЬС — nan</div>`)[0];
+                popup_727ddfdd6720171cc20eeae0da427161.setContent(html_8955211e50f7ee547fc76f6238995c0b);
+            
+        
+
+        marker_9ef5ca632282c61ed5ca21ac0d192377.bindPopup(popup_727ddfdd6720171cc20eeae0da427161)
+        ;
+
+        
+    
+    
+            var marker_5e56a4599956611c37473e1832d17c29 = L.marker(
+                [45.033916, 39.139714],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_5ccbe77162b79680e7f5ccf9ed0c4518 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32ea8e3efa69328bcb4d036d75724b4a = $(`<div id="html_32ea8e3efa69328bcb4d036d75724b4a" style="width: 100.0%; height: 100.0%;">Главный аналитик (календарно-сетевое планирование) — Аэротерминал — 177480.0</div>`)[0];
+                popup_5ccbe77162b79680e7f5ccf9ed0c4518.setContent(html_32ea8e3efa69328bcb4d036d75724b4a);
+            
+        
+
+        marker_5e56a4599956611c37473e1832d17c29.bindPopup(popup_5ccbe77162b79680e7f5ccf9ed0c4518)
+        ;
+
+        
+    
+    
+            var marker_3a573d22e35d3bf37ea946d8c4af410a = L.marker(
+                [45.0215553251244, 38.9719657413662],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_3397d8aabf98786e46c9305d256e99cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d6c8be14084c600603e75e60d3014dd = $(`<div id="html_7d6c8be14084c600603e75e60d3014dd" style="width: 100.0%; height: 100.0%;">Старший системный аналитик (фронт-офисные системы) — Кубань Кредит, КБ — nan</div>`)[0];
+                popup_3397d8aabf98786e46c9305d256e99cf.setContent(html_7d6c8be14084c600603e75e60d3014dd);
+            
+        
+
+        marker_3a573d22e35d3bf37ea946d8c4af410a.bindPopup(popup_3397d8aabf98786e46c9305d256e99cf)
+        ;
+
+        
+    
+    
+            var marker_addd063d0e55703220807003de56be1d = L.marker(
+                [55.772497, 37.632305],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_4b06f3702dbcbb90611197c60e376b97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62f0b1cc799b472eee87bddaa1f11834 = $(`<div id="html_62f0b1cc799b472eee87bddaa1f11834" style="width: 100.0%; height: 100.0%;">Аналитик/Консультант 1С:БП/ERP — 1С-КСУ — 95000.0</div>`)[0];
+                popup_4b06f3702dbcbb90611197c60e376b97.setContent(html_62f0b1cc799b472eee87bddaa1f11834);
+            
+        
+
+        marker_addd063d0e55703220807003de56be1d.bindPopup(popup_4b06f3702dbcbb90611197c60e376b97)
+        ;
+
+        
+    
+    
+            var marker_25c8a86af0c6dd33619248cfa431de42 = L.marker(
+                [45.037649, 38.99433],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_b9f3beb0a0c39e6661b152b731cbf558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016655dcde61c2a3d1edcfbde0f6e5bf = $(`<div id="html_016655dcde61c2a3d1edcfbde0f6e5bf" style="width: 100.0%; height: 100.0%;">Системный аналитик — Spider Group — 180000.0</div>`)[0];
+                popup_b9f3beb0a0c39e6661b152b731cbf558.setContent(html_016655dcde61c2a3d1edcfbde0f6e5bf);
+            
+        
+
+        marker_25c8a86af0c6dd33619248cfa431de42.bindPopup(popup_b9f3beb0a0c39e6661b152b731cbf558)
+        ;
+
+        
+    
+    
+            var marker_6404f1344b088c44d01bcc3aa04c68aa = L.marker(
+                [45.03863, 38.984575],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_232bab620f7397b10b0ab01ee6cf0767 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1321a7e1d0cc62f8908f845dbbf4ecfb = $(`<div id="html_1321a7e1d0cc62f8908f845dbbf4ecfb" style="width: 100.0%; height: 100.0%;">Аналитик 1С (1С:Управление торговлей) — Информтренд — 150000.0</div>`)[0];
+                popup_232bab620f7397b10b0ab01ee6cf0767.setContent(html_1321a7e1d0cc62f8908f845dbbf4ecfb);
+            
+        
+
+        marker_6404f1344b088c44d01bcc3aa04c68aa.bindPopup(popup_232bab620f7397b10b0ab01ee6cf0767)
+        ;
+
+        
+    
+    
+            var marker_a6403ed5e4dcffcea2362fc8d920b009 = L.marker(
+                [45.022106, 38.959467],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_810e2e33239fd575ba6b57879d78c702 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89f7ff6e377f40ff4bfdbdbfb3636830 = $(`<div id="html_89f7ff6e377f40ff4bfdbdbfb3636830" style="width: 100.0%; height: 100.0%;">Главный аналитик (бухгалтер) по управленческому учету — Торговая сеть ТАБРИС — nan</div>`)[0];
+                popup_810e2e33239fd575ba6b57879d78c702.setContent(html_89f7ff6e377f40ff4bfdbdbfb3636830);
+            
+        
+
+        marker_a6403ed5e4dcffcea2362fc8d920b009.bindPopup(popup_810e2e33239fd575ba6b57879d78c702)
+        ;
+
+        
+    
+    
+            var marker_bd4aaf5658af402b5820a6918b1661c2 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_93e9b7f746dd51cc593fbd56ff2d949e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6003040911f7c9de5f7caaaa41bd868f = $(`<div id="html_6003040911f7c9de5f7caaaa41bd868f" style="width: 100.0%; height: 100.0%;">Главный бизнес-аналитик по автоматизации бухгалтерского учета — МАГНИТ, Розничная сеть — 95000.0</div>`)[0];
+                popup_93e9b7f746dd51cc593fbd56ff2d949e.setContent(html_6003040911f7c9de5f7caaaa41bd868f);
+            
+        
+
+        marker_bd4aaf5658af402b5820a6918b1661c2.bindPopup(popup_93e9b7f746dd51cc593fbd56ff2d949e)
+        ;
+
+        
+    
+    
+            var marker_6e0a9cd852dd5a0f64bbbc7bf3f74d50 = L.marker(
+                [45.026017, 38.977505],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_c969bfd14accc600141985751894b34d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0195d1e9af4f21aecc154081ef18ae4 = $(`<div id="html_a0195d1e9af4f21aecc154081ef18ae4" style="width: 100.0%; height: 100.0%;">Экономист-аналитик — Clinica эстетической медицины — 60000.0</div>`)[0];
+                popup_c969bfd14accc600141985751894b34d.setContent(html_a0195d1e9af4f21aecc154081ef18ae4);
+            
+        
+
+        marker_6e0a9cd852dd5a0f64bbbc7bf3f74d50.bindPopup(popup_c969bfd14accc600141985751894b34d)
+        ;
+
+        
+    
+    
+            var marker_09087b2f866e94da4312700e2948bfa4 = L.marker(
+                [45.03547, 38.97531],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_0bd18c1435f4903a0a3500fefc2b9f92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d9d146b698a249da16ff71862f8a84d = $(`<div id="html_4d9d146b698a249da16ff71862f8a84d" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик/Интегратор Битрикс24 — Харьковский Виктор Алексеевич — 70000.0</div>`)[0];
+                popup_0bd18c1435f4903a0a3500fefc2b9f92.setContent(html_4d9d146b698a249da16ff71862f8a84d);
+            
+        
+
+        marker_09087b2f866e94da4312700e2948bfa4.bindPopup(popup_0bd18c1435f4903a0a3500fefc2b9f92)
+        ;
+
+        
+    
+    
+            var marker_0a4f41a4d4496e8bd6d3662a06436e3e = L.marker(
+                [45.03863, 38.984575],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_b62413bbe281dd28974e77941880aff8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f80dde25b5ff7181101f53e936f7e80a = $(`<div id="html_f80dde25b5ff7181101f53e936f7e80a" style="width: 100.0%; height: 100.0%;">Аналитик 1С (1С:Бухгалтерия КОРП/1С:КА/ Бит.Финанс) — Информтренд — 170000.0</div>`)[0];
+                popup_b62413bbe281dd28974e77941880aff8.setContent(html_f80dde25b5ff7181101f53e936f7e80a);
+            
+        
+
+        marker_0a4f41a4d4496e8bd6d3662a06436e3e.bindPopup(popup_b62413bbe281dd28974e77941880aff8)
+        ;
+
+        
+    
+    
+            var marker_0807edef25ef66fd079152e4fb69d144 = L.marker(
+                [45.049297, 38.967588],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_42f39d28569b1a36b84f0933de86a68f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27d7790df2deb2d743bfd1c78a44aad8 = $(`<div id="html_27d7790df2deb2d743bfd1c78a44aad8" style="width: 100.0%; height: 100.0%;">IT специалист / аналитик / интегратор CRM / Project Manager — Агентство ИнТОП — 47500.0</div>`)[0];
+                popup_42f39d28569b1a36b84f0933de86a68f.setContent(html_27d7790df2deb2d743bfd1c78a44aad8);
+            
+        
+
+        marker_0807edef25ef66fd079152e4fb69d144.bindPopup(popup_42f39d28569b1a36b84f0933de86a68f)
+        ;
+
+        
+    
+    
+            var marker_8e62dd7ba533cb737961c5940233629c = L.marker(
+                [45.043024, 39.144753],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_74727bc6441fa883a9e616ceee31d633 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_861404e4cb1d1e7737ef4364959dc949 = $(`<div id="html_861404e4cb1d1e7737ef4364959dc949" style="width: 100.0%; height: 100.0%;">Ведущий аналитик — Хлебпром — nan</div>`)[0];
+                popup_74727bc6441fa883a9e616ceee31d633.setContent(html_861404e4cb1d1e7737ef4364959dc949);
+            
+        
+
+        marker_8e62dd7ba533cb737961c5940233629c.bindPopup(popup_74727bc6441fa883a9e616ceee31d633)
+        ;
+
+        
+    
+    
+            var marker_b340e2c12658cf0a924c669370462666 = L.marker(
+                [45.033948, 39.005982],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_0af8d58c42d288e35604fd4d36899668 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19629e8d51fa6e2f0d30708e5ece3cea = $(`<div id="html_19629e8d51fa6e2f0d30708e5ece3cea" style="width: 100.0%; height: 100.0%;">Системный аналитик — АйтиКом — nan</div>`)[0];
+                popup_0af8d58c42d288e35604fd4d36899668.setContent(html_19629e8d51fa6e2f0d30708e5ece3cea);
+            
+        
+
+        marker_b340e2c12658cf0a924c669370462666.bindPopup(popup_0af8d58c42d288e35604fd4d36899668)
+        ;
+
+        
+    
+    
+            var marker_427fd81b8e0289adddbb6e7cb8d76f04 = L.marker(
+                [44.397305, 33.939501],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_17bc62b96eb8d6ff34b2b86003fd9e20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f01a191a38be187592c5f59dea06f734 = $(`<div id="html_f01a191a38be187592c5f59dea06f734" style="width: 100.0%; height: 100.0%;">Аналитик 1С — Мрия (Mriya Resort) — nan</div>`)[0];
+                popup_17bc62b96eb8d6ff34b2b86003fd9e20.setContent(html_f01a191a38be187592c5f59dea06f734);
+            
+        
+
+        marker_427fd81b8e0289adddbb6e7cb8d76f04.bindPopup(popup_17bc62b96eb8d6ff34b2b86003fd9e20)
+        ;
+
+        
+    
+    
+            var marker_19c23531fa8e13ded6ed40ba45ad1cd3 = L.marker(
+                [45.048265, 39.002766],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_fbaf57746bb94a77ecc1a8d5ba86e895 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_742fb0f36ad7666f26f3607f4cf2150d = $(`<div id="html_742fb0f36ad7666f26f3607f4cf2150d" style="width: 100.0%; height: 100.0%;">Химик-аналитик — ФОРТ — 40000.0</div>`)[0];
+                popup_fbaf57746bb94a77ecc1a8d5ba86e895.setContent(html_742fb0f36ad7666f26f3607f4cf2150d);
+            
+        
+
+        marker_19c23531fa8e13ded6ed40ba45ad1cd3.bindPopup(popup_fbaf57746bb94a77ecc1a8d5ba86e895)
+        ;
+
+        
+    
+    
+            var marker_d9e56db49ece01133d610d77da130320 = L.marker(
+                [45.048284, 38.983137],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_6adb691ac7799d22d86b06c736ab1510 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d34809dbdd16850d527f46c7143236cf = $(`<div id="html_d34809dbdd16850d527f46c7143236cf" style="width: 100.0%; height: 100.0%;">Аналитик-консультант по работе с подсистемой бюджетирования и казначейства в 1С:ERP — Портал-Юг — nan</div>`)[0];
+                popup_6adb691ac7799d22d86b06c736ab1510.setContent(html_d34809dbdd16850d527f46c7143236cf);
+            
+        
+
+        marker_d9e56db49ece01133d610d77da130320.bindPopup(popup_6adb691ac7799d22d86b06c736ab1510)
+        ;
+
+        
+    
+    
+            var marker_5314df84fde73e379814886e7e09d098 = L.marker(
+                [55.83428, 52.046124],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_6704d1effc992fb8f66619ba2c6f2803 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4156b8d58c818cc340f71e532f63336 = $(`<div id="html_a4156b8d58c818cc340f71e532f63336" style="width: 100.0%; height: 100.0%;">Системный аналитик — Алабуга, ОЭЗ ППТ — 157500.0</div>`)[0];
+                popup_6704d1effc992fb8f66619ba2c6f2803.setContent(html_a4156b8d58c818cc340f71e532f63336);
+            
+        
+
+        marker_5314df84fde73e379814886e7e09d098.bindPopup(popup_6704d1effc992fb8f66619ba2c6f2803)
+        ;
+
+        
+    
+    
+            var marker_b7f0fe15fb04d30dc01ec8b6ff8945d7 = L.marker(
+                [45.132541, 39.024891],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_5cc6ba61ee7fc62208552a17a01bd692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22a909a5621d64aa915334dfa3f8a8e2 = $(`<div id="html_22a909a5621d64aa915334dfa3f8a8e2" style="width: 100.0%; height: 100.0%;">Аналитик 1С — Ведущий изготовитель кровли ВИК — nan</div>`)[0];
+                popup_5cc6ba61ee7fc62208552a17a01bd692.setContent(html_22a909a5621d64aa915334dfa3f8a8e2);
+            
+        
+
+        marker_b7f0fe15fb04d30dc01ec8b6ff8945d7.bindPopup(popup_5cc6ba61ee7fc62208552a17a01bd692)
+        ;
+
+        
+    
+    
+            var marker_489fe1bce2c2e282ab564b0bf8680f16 = L.marker(
+                [45.044253, 38.975205],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_c05f472ae001343c43bc7d96cf2c80ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3af84eb288a4991c7b78d324a61c3b4c = $(`<div id="html_3af84eb288a4991c7b78d324a61c3b4c" style="width: 100.0%; height: 100.0%;">Системный аналитик/System Analyst (middle) — Заряд — 125000.0</div>`)[0];
+                popup_c05f472ae001343c43bc7d96cf2c80ec.setContent(html_3af84eb288a4991c7b78d324a61c3b4c);
+            
+        
+
+        marker_489fe1bce2c2e282ab564b0bf8680f16.bindPopup(popup_c05f472ae001343c43bc7d96cf2c80ec)
+        ;
+
+        
+    
+    
+            var marker_267fada3a9addaf1c838ce24fba17f23 = L.marker(
+                [45.039731, 39.018226],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_80a9f0013fa133338a7a5be42038b034 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_330d87c8fd49f0001e967419afe1c37e = $(`<div id="html_330d87c8fd49f0001e967419afe1c37e" style="width: 100.0%; height: 100.0%;">Бизнес / Системный аналитик (IT) — Justice IT — nan</div>`)[0];
+                popup_80a9f0013fa133338a7a5be42038b034.setContent(html_330d87c8fd49f0001e967419afe1c37e);
+            
+        
+
+        marker_267fada3a9addaf1c838ce24fba17f23.bindPopup(popup_80a9f0013fa133338a7a5be42038b034)
+        ;
+
+        
+    
+    
+            var marker_5c1ec3abc8486f3293fd0a3068d1a5e1 = L.marker(
+                [45.038986, 38.986255],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_c77050750ee3e0b38f8c402c1d4ebb2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72126ba9904edfb58524630c47e05f2a = $(`<div id="html_72126ba9904edfb58524630c47e05f2a" style="width: 100.0%; height: 100.0%;">Финансовый аналитик — Пятёрочка — nan</div>`)[0];
+                popup_c77050750ee3e0b38f8c402c1d4ebb2a.setContent(html_72126ba9904edfb58524630c47e05f2a);
+            
+        
+
+        marker_5c1ec3abc8486f3293fd0a3068d1a5e1.bindPopup(popup_c77050750ee3e0b38f8c402c1d4ebb2a)
+        ;
+
+        
+    
+    
+            var marker_48d0c609811f36562a35d2331d52f6bb = L.marker(
+                [45.024336, 38.958335],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_e1e8b05e898b97cbc605c7cbeb0129fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7812f3e53af48127df9e829cd31ce2d1 = $(`<div id="html_7812f3e53af48127df9e829cd31ce2d1" style="width: 100.0%; height: 100.0%;">Системный аналитик в команду интеграционных сервисов (офис) — Совкомбанк Технологии — nan</div>`)[0];
+                popup_e1e8b05e898b97cbc605c7cbeb0129fe.setContent(html_7812f3e53af48127df9e829cd31ce2d1);
+            
+        
+
+        marker_48d0c609811f36562a35d2331d52f6bb.bindPopup(popup_e1e8b05e898b97cbc605c7cbeb0129fe)
+        ;
+
+        
+    
+    
+            var marker_3d3801a3d272182840b8dad5a39882fd = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_552474c70085c63e1783f0103aa9eb23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e43a4acedde9b6e9bc48028a3e3d120c = $(`<div id="html_e43a4acedde9b6e9bc48028a3e3d120c" style="width: 100.0%; height: 100.0%;">Аналитик в отдел эффективности закупок — МАГНИТ, Розничная сеть — 75500.0</div>`)[0];
+                popup_552474c70085c63e1783f0103aa9eb23.setContent(html_e43a4acedde9b6e9bc48028a3e3d120c);
+            
+        
+
+        marker_3d3801a3d272182840b8dad5a39882fd.bindPopup(popup_552474c70085c63e1783f0103aa9eb23)
+        ;
+
+        
+    
+    
+            var marker_50eb6b8cb0d3a3ef579682e830779ac5 = L.marker(
+                [45.055333, 38.956332],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_84291cc867fc75f88dd0a894d2fcced3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f66dae044477d0d877d843b22fc4090f = $(`<div id="html_f66dae044477d0d877d843b22fc4090f" style="width: 100.0%; height: 100.0%;">Финансовый аналитик — Семья — nan</div>`)[0];
+                popup_84291cc867fc75f88dd0a894d2fcced3.setContent(html_f66dae044477d0d877d843b22fc4090f);
+            
+        
+
+        marker_50eb6b8cb0d3a3ef579682e830779ac5.bindPopup(popup_84291cc867fc75f88dd0a894d2fcced3)
+        ;
+
+        
+    
+    
+            var marker_0d4c59b226a7e7337f971dac3f1e20bd = L.marker(
+                [45.021602, 38.972007],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_f2affd5b4fbee241158ed1ea89ff3e3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45ad2af800b6d466ccd42fc1c54999ce = $(`<div id="html_45ad2af800b6d466ccd42fc1c54999ce" style="width: 100.0%; height: 100.0%;">Аналитик данных Департамента корпоративного бизнеса — Кубань Кредит, КБ — nan</div>`)[0];
+                popup_f2affd5b4fbee241158ed1ea89ff3e3f.setContent(html_45ad2af800b6d466ccd42fc1c54999ce);
+            
+        
+
+        marker_0d4c59b226a7e7337f971dac3f1e20bd.bindPopup(popup_f2affd5b4fbee241158ed1ea89ff3e3f)
+        ;
+
+        
+    
+    
+            var marker_19d6276c456736e4e67d10f8430a6831 = L.marker(
+                [44.93124, 37.31855],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_e91f47b2b6f118a437684148edac2e1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c339af38c1640e0c6f82809d7ed7b672 = $(`<div id="html_c339af38c1640e0c6f82809d7ed7b672" style="width: 100.0%; height: 100.0%;">Аналитик данных 1С (в г.Анапа) — Alean Collection — nan</div>`)[0];
+                popup_e91f47b2b6f118a437684148edac2e1e.setContent(html_c339af38c1640e0c6f82809d7ed7b672);
+            
+        
+
+        marker_19d6276c456736e4e67d10f8430a6831.bindPopup(popup_e91f47b2b6f118a437684148edac2e1e)
+        ;
+
+        
+    
+    
+            var marker_f3cab7d7fc4e07a30deb8a727651c455 = L.marker(
+                [45.03540698031786, 38.97527692839503],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_1731331f02899b61aebbed8934710ed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c344c38a11a8d1addd2c89318ee281a3 = $(`<div id="html_c344c38a11a8d1addd2c89318ee281a3" style="width: 100.0%; height: 100.0%;">Аналитик по планированию регулярного и длительного промо — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_1731331f02899b61aebbed8934710ed3.setContent(html_c344c38a11a8d1addd2c89318ee281a3);
+            
+        
+
+        marker_f3cab7d7fc4e07a30deb8a727651c455.bindPopup(popup_1731331f02899b61aebbed8934710ed3)
+        ;
+
+        
+    
+    
+            var marker_3e12acc1d251db7b3e8e986a08815256 = L.marker(
+                [45.021978, 38.941914],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_6e80f7c3b56b4c3089ae467792c1c544 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c448670b74efed20be4645d693a82dad = $(`<div id="html_c448670b74efed20be4645d693a82dad" style="width: 100.0%; height: 100.0%;">Менеджер по продажам запасных частей (аналитик) — Бизнес Кар Кубань — 110000.0</div>`)[0];
+                popup_6e80f7c3b56b4c3089ae467792c1c544.setContent(html_c448670b74efed20be4645d693a82dad);
+            
+        
+
+        marker_3e12acc1d251db7b3e8e986a08815256.bindPopup(popup_6e80f7c3b56b4c3089ae467792c1c544)
+        ;
+
+        
+    
+    
+            var marker_2a26be59b5a1eaccf234ed812a3946a6 = L.marker(
+                [55.669747, 37.532143],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_07c74769f30578c7644b447808f7713d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f9b1483753d8f8bed9904d27a19913 = $(`<div id="html_97f9b1483753d8f8bed9904d27a19913" style="width: 100.0%; height: 100.0%;">Ведущий аналитик 1С — ГЭС — nan</div>`)[0];
+                popup_07c74769f30578c7644b447808f7713d.setContent(html_97f9b1483753d8f8bed9904d27a19913);
+            
+        
+
+        marker_2a26be59b5a1eaccf234ed812a3946a6.bindPopup(popup_07c74769f30578c7644b447808f7713d)
+        ;
+
+        
+    
+    
+            var marker_b85028f57e8234d311514e9f13ca1e76 = L.marker(
+                [45.023597, 38.959368],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_99bc69c4ab170c5d39257475965aa8e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5b628e8f4abddf0d1d418164297fd31 = $(`<div id="html_a5b628e8f4abddf0d1d418164297fd31" style="width: 100.0%; height: 100.0%;">Системный аналитик в мобильную разработку (офис) — Совкомбанк Технологии — nan</div>`)[0];
+                popup_99bc69c4ab170c5d39257475965aa8e5.setContent(html_a5b628e8f4abddf0d1d418164297fd31);
+            
+        
+
+        marker_b85028f57e8234d311514e9f13ca1e76.bindPopup(popup_99bc69c4ab170c5d39257475965aa8e5)
+        ;
+
+        
+    
+    
+            var marker_f691eaa2f725f7d7f9936559bb55dbc6 = L.marker(
+                [44.953277, 34.102177],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_0e80a2a246057e1462fe84fb12a7902f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6662b7ef38b3127795973bf057df894d = $(`<div id="html_6662b7ef38b3127795973bf057df894d" style="width: 100.0%; height: 100.0%;">Финансовый аналитик (Крым) — АйСи Инвест — nan</div>`)[0];
+                popup_0e80a2a246057e1462fe84fb12a7902f.setContent(html_6662b7ef38b3127795973bf057df894d);
+            
+        
+
+        marker_f691eaa2f725f7d7f9936559bb55dbc6.bindPopup(popup_0e80a2a246057e1462fe84fb12a7902f)
+        ;
+
+        
+    
+    
+            var marker_7849ed5ef542c71517cd8282b9ea0d27 = L.marker(
+                [45.03540698031786, 38.97527692839503],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_c9236c6085a7aa80a9d3185199637909 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7236b4a390673fce76740cbd6a6c18a3 = $(`<div id="html_7236b4a390673fce76740cbd6a6c18a3" style="width: 100.0%; height: 100.0%;">Главный аналитик данных — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_c9236c6085a7aa80a9d3185199637909.setContent(html_7236b4a390673fce76740cbd6a6c18a3);
+            
+        
+
+        marker_7849ed5ef542c71517cd8282b9ea0d27.bindPopup(popup_c9236c6085a7aa80a9d3185199637909)
+        ;
+
+        
+    
+    
+            var marker_cca413f833157418a4bb934596722df8 = L.marker(
+                [45.024336, 38.958335],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_364d86d55e7a1dedeaaf60216b313e79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8285433b53a529033919af13012e1f00 = $(`<div id="html_8285433b53a529033919af13012e1f00" style="width: 100.0%; height: 100.0%;">Middle system analyst (Web) — Совкомбанк Технологии — nan</div>`)[0];
+                popup_364d86d55e7a1dedeaaf60216b313e79.setContent(html_8285433b53a529033919af13012e1f00);
+            
+        
+
+        marker_cca413f833157418a4bb934596722df8.bindPopup(popup_364d86d55e7a1dedeaaf60216b313e79)
+        ;
+
+        
+    
+    
+            var marker_bf66c7f1fae17c24ff60d3ca9f258459 = L.marker(
+                [44.983924, 34.069559],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_938d110f67190a0c099d496c53951ef7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a5bca3360b11f0706ba1bfea9d8c270 = $(`<div id="html_1a5bca3360b11f0706ba1bfea9d8c270" style="width: 100.0%; height: 100.0%;">Аналитик разработки и внедрения ПО (г. Симферополь) — Айси Логистик — nan</div>`)[0];
+                popup_938d110f67190a0c099d496c53951ef7.setContent(html_1a5bca3360b11f0706ba1bfea9d8c270);
+            
+        
+
+        marker_bf66c7f1fae17c24ff60d3ca9f258459.bindPopup(popup_938d110f67190a0c099d496c53951ef7)
+        ;
+
+        
+    
+    
+            var marker_f8e0e76ee3255e0dd832152689c67632 = L.marker(
+                [45.08886, 38.995651],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_dee7625648c3adff67d72c5bf2624f62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0e2802238699fe7ef1481e64b0cf025 = $(`<div id="html_c0e2802238699fe7ef1481e64b0cf025" style="width: 100.0%; height: 100.0%;">Аналитик/менеджер по ценообразованию — Голубцова Анна Сергеевна — 100000.0</div>`)[0];
+                popup_dee7625648c3adff67d72c5bf2624f62.setContent(html_c0e2802238699fe7ef1481e64b0cf025);
+            
+        
+
+        marker_f8e0e76ee3255e0dd832152689c67632.bindPopup(popup_dee7625648c3adff67d72c5bf2624f62)
+        ;
+
+        
+    
+    
+            var marker_951bad264835ffd33158b9daa65da5cd = L.marker(
+                [53.03748864603533, 39.01090907137959],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_05375cbbdb666e6ced66aa138393b763 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_046fb509aeed837cad557bed95107710 = $(`<div id="html_046fb509aeed837cad557bed95107710" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик — Агроном-сад — nan</div>`)[0];
+                popup_05375cbbdb666e6ced66aa138393b763.setContent(html_046fb509aeed837cad557bed95107710);
+            
+        
+
+        marker_951bad264835ffd33158b9daa65da5cd.bindPopup(popup_05375cbbdb666e6ced66aa138393b763)
+        ;
+
+        
+    
+    
+            var marker_d6d070dc873192412062ab99e5e538e2 = L.marker(
+                [45.025565, 39.044079],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_06d17ec61adacb45546462095e059506 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfb51fd4cf68ba42966593aeefc88af2 = $(`<div id="html_dfb51fd4cf68ba42966593aeefc88af2" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик — Диджитал Сектор Поддержка — 95000.0</div>`)[0];
+                popup_06d17ec61adacb45546462095e059506.setContent(html_dfb51fd4cf68ba42966593aeefc88af2);
+            
+        
+
+        marker_d6d070dc873192412062ab99e5e538e2.bindPopup(popup_06d17ec61adacb45546462095e059506)
+        ;
+
+        
+    
+    
+            var marker_c7566787cd7116beb72edeeac0ccfecc = L.marker(
+                [45.048284, 38.983137],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_5d0419f3a8bc4a9cb58ef718e48b62e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1953fb822518edaa3699a0772b9e893c = $(`<div id="html_1953fb822518edaa3699a0772b9e893c" style="width: 100.0%; height: 100.0%;">Аналитик-консультант 1С: Зарплата и Управление персоналом — Портал-Юг — nan</div>`)[0];
+                popup_5d0419f3a8bc4a9cb58ef718e48b62e0.setContent(html_1953fb822518edaa3699a0772b9e893c);
+            
+        
+
+        marker_c7566787cd7116beb72edeeac0ccfecc.bindPopup(popup_5d0419f3a8bc4a9cb58ef718e48b62e0)
+        ;
+
+        
+    
+    
+            var marker_65444cc10dc1e834995484a114b16a86 = L.marker(
+                [45.157016, 39.0052],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_84e55edbd1a9c8270bf14aef7b04dd50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6b71f6af5c9397666dc9ac130e1f422 = $(`<div id="html_a6b71f6af5c9397666dc9ac130e1f422" style="width: 100.0%; height: 100.0%;">Аналитик внедрения ПО — Полибит — 80000.0</div>`)[0];
+                popup_84e55edbd1a9c8270bf14aef7b04dd50.setContent(html_a6b71f6af5c9397666dc9ac130e1f422);
+            
+        
+
+        marker_65444cc10dc1e834995484a114b16a86.bindPopup(popup_84e55edbd1a9c8270bf14aef7b04dd50)
+        ;
+
+        
+    
+    
+            var marker_cb3513ac4e156bcb8588cfd1b75e72af = L.marker(
+                [44.953277, 34.102177],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_9fcbd25f51184319b32d7af1eecde3d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6c01675a02d2d5bf422556f4d687e35 = $(`<div id="html_f6c01675a02d2d5bf422556f4d687e35" style="width: 100.0%; height: 100.0%;">Аналитик по управлению оборотным капиталом (платежный календарь) — АйСи Инвест — nan</div>`)[0];
+                popup_9fcbd25f51184319b32d7af1eecde3d6.setContent(html_f6c01675a02d2d5bf422556f4d687e35);
+            
+        
+
+        marker_cb3513ac4e156bcb8588cfd1b75e72af.bindPopup(popup_9fcbd25f51184319b32d7af1eecde3d6)
+        ;
+
+        
+    
+    
+            var marker_afa68360d89812a97dcb04fa64a10817 = L.marker(
+                [45.022099, 38.959431],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_ec2c4d9367a7ebdeb250c4576645a8d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70739399e2ce9f9531ff4d9e858be212 = $(`<div id="html_70739399e2ce9f9531ff4d9e858be212" style="width: 100.0%; height: 100.0%;">Аналитик SQL — Торговая сеть ТАБРИС — 100000.0</div>`)[0];
+                popup_ec2c4d9367a7ebdeb250c4576645a8d9.setContent(html_70739399e2ce9f9531ff4d9e858be212);
+            
+        
+
+        marker_afa68360d89812a97dcb04fa64a10817.bindPopup(popup_ec2c4d9367a7ebdeb250c4576645a8d9)
+        ;
+
+        
+    
+    
+            var marker_6c3f21b8a914ef197baa16cbd7670901 = L.marker(
+                [45.072777, 39.003116],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_4a57ad1b1911cad82e39cd6bd4ee33bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a37b4c5acfb09b4635d6dd9301b47f14 = $(`<div id="html_a37b4c5acfb09b4635d6dd9301b47f14" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик (система ЕГАИС) — МАГНИТ, Розничная сеть — nan</div>`)[0];
+                popup_4a57ad1b1911cad82e39cd6bd4ee33bc.setContent(html_a37b4c5acfb09b4635d6dd9301b47f14);
+            
+        
+
+        marker_6c3f21b8a914ef197baa16cbd7670901.bindPopup(popup_4a57ad1b1911cad82e39cd6bd4ee33bc)
+        ;
+
+        
+    
+    
+            var marker_01f4ff1346302e52cf59bf462e58f061 = L.marker(
+                [45.03547, 38.97531],
+                {
+}
+            ).addTo(map_a7325de64b11b58c2706b8696e59fcd6);
+        
+    
+        var popup_aaf06c3d81bd4207421fd17b40e0770a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c1e31e7494b114fa205177cd19be2d = $(`<div id="html_87c1e31e7494b114fa205177cd19be2d" style="width: 100.0%; height: 100.0%;">Бизнес-аналитик / Системный Аналитик (Bitrix24) — ARWOX — 1650.0</div>`)[0];
+                popup_aaf06c3d81bd4207421fd17b40e0770a.setContent(html_87c1e31e7494b114fa205177cd19be2d);
+            
+        
+
+        marker_01f4ff1346302e52cf59bf462e58f061.bindPopup(popup_aaf06c3d81bd4207421fd17b40e0770a)
+        ;
+
+        
+    
+</script>
+</html>
